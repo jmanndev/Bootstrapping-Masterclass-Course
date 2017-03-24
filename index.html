@@ -1,0 +1,108 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+    
+<!-- REQUIRED BOOTSTRAP LINKS -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <title>Bootstrap Basics</title>
+<!-- END REQUIRED BOOTSTRAP LINKS -->    
+
+</head>
+<body>
+    
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-default"> <!-- navbar and navbar-default are bootstrap classes -->
+        
+        <!-- Bootstrap responsiveness stuff -->
+        <div class="container-fluid"> <!-- tells bootstrap to put 12 columns here-->
+            
+            <!-- NAVBAR HEADER -->
+            <div class="navbar-header"> <!-- title for the navbar - either title or image.  site logo for example -->
+                <a class="navbar-brand" href="index.html"> <!-- allows clicking here to link back to homepage -->
+                    <img src="logo.png" id="logo">
+                </a>
+            </div>
+            
+            
+            <!-- LIST OF LINKS FOR NAVBAR -->
+            <ul class="nav navbar-nav"> <!-- 'navbar-nav' means this is the navigation section of navbar -->
+                <li><a href='index.html'>Home</a></li> <!-- href='#' is a dummy link that does nothing -->
+                <li><a href='#'>About</a></li>
+                <li><a href='#'>Contact Us</a></li>
+                <li><a href='#'>Shop</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- TITLE -->
+    <h1 class="impactText">Smiles For Miles</h1>
+    
+    
+    <!-- CARDHOLDER CONTAINER -->
+    <div class="container-fluid" id="card-holder">
+        
+        <div class="row">
+            
+                
+            <!-- SOURCED CARD -->
+            <div class="col-lg-4"> <!-- bootstrap use 4 columns to display everything inside this div for large screen, bootstrap will assume that col-sm will be 12 unless specified -->
+                <div class="jumbotron"> <!-- white card with curved edges -->
+                    <div class="glyphicon glyphicon-search"></div> <!-- library of basic icons to use -->
+                    <h3>Sourced from the Himalayas</h3>
+                    <p1>You could have your vey own smiles shipped just for you from some far away land! WOW!</p1>
+                    <p class="buttonHolder">
+                        <a href="#" class="btn btn-primary btn-lg">
+                            Get Smiling
+                        </a>
+                    </p>
+                </div>
+            </div>
+            
+            
+            <!-- MAIL CARD -->
+            <div class="col-lg-4">
+                <div class="jumbotron">
+                    <div class="glyphicon glyphicon-envelope"></div>
+                    <h3>Sourced from the Himalayas</h3>
+                    <p1>You could have your vey own smiles shipped just for you from some far away land! WOW!</p1>
+                    <p class="buttonHolder">
+                        <a href="#" class="btn btn-primary btn-lg">
+                            Get Smiling
+                        </a>
+                    </p>
+                </div>
+            </div>
+            
+            
+            <!-- HOME CARD -->
+            <div class="col-lg-4">
+                <div class="jumbotron">
+                    <div class="glyphicon glyphicon-home"></div>
+                    <h3>Sourced from the Himalayas</h3>
+                    <p1>You could have your vey own smiles shipped just for you from some far away land! WOW!</p1>
+                    <p class="buttonHolder">
+                        <a href="#" class="btn btn-primary btn-lg">
+                            Get Smiling
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    <!--FOOTER BAR -->
+    <div class="navbar navbar-inverse" id="footer-bar">
+        <p1 class="navbar-text" id="copyright">Copyright &copy; 2017 Jonathan Mann</p1>
+    </div>
+    
+</body>
+</html>

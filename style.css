@@ -1,0 +1,59 @@
+@import 'https://fonts.googleapis.com/css?family=Pacifico'; /* get cool font from google fonts */
+
+/* '#' references an ID (single element)      '.' references a class (type of element) */
+
+#logo  {
+    height: 20px;
+    
+}
+
+.impactText {
+    text-align: center;
+    color: white;
+    font-family: 'Pacifico', sans-serif; /* sans-serif font used if Pacifico is unavailable */
+    font-size: 80pt;
+    text-shadow: 0px 0px 10px black;
+    margin: 110px 0px; /* space OUTSIDE of box */ 
+    
+}
+
+.jumbotron {
+    margin: 0px 50px;
+    
+    
+}
+
+.glyphicon {
+    font-size: 40pt;
+    text-align: center;
+    width: 100%;
+}
+
+.jumbotron h3 {
+    text-align: center;
+}
+
+
+.buttonHolder {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#footer-bar {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+}
+
+body {
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-position: bottom;
+}
